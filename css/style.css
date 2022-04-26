@@ -314,6 +314,12 @@
                      .header__button {
                          max-height: 90px;
                      }
+                     .header__burger_cross {
+                         transform: rotate(46deg);
+                         position: fixed;
+                         top: 25px;
+                         right: 10px;
+                     }
                  }
                  
                  @media (max-width: 376px) {
