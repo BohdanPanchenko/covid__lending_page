@@ -4,7 +4,6 @@ burgerBtn.addEventListener('click', (e) => {
     const menu = document.querySelector('.menu');
     menu.classList.toggle('menu_burger-active');
     e.currentTarget.classList.toggle('header__burger_cross');
+    document.body.classList.toggle('burger-active');
 
 })
-
-// .header__burger_cross
